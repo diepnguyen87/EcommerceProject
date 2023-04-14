@@ -1,0 +1,24 @@
+{
+  "capabilities": [
+    {
+      "maxInstances": 1,
+      "platform": "ios",
+      "deviceName": "iPhone 8",
+      "platformVersion": "13.0"
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 2000,
+    "timeout": 30000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://0.0.0.0:8000/wd/hub",
+    "host": "0.0.0.0",
+    "port": 8000,
+    "maxSession": 1,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "10.2.3.8",
+    "hubProtocol": "http"
+  }
+}
