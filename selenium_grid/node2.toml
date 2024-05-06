@@ -1,0 +1,13 @@
+# node1.toml
+[server]
+port = 5557
+
+[node]
+detect-drivers = false
+
+[relay]
+url = "http://localhost:4733"
+status-endpoint = "/status"
+configs = [
+    "1", "{\"appium:deviceName\": \"192.168.0.103:37175\", \"platformName\": \"android\", \"appium:platformVersion\": \"14\", \"appium:automationName\": \"uiautomator2\"}"
+]

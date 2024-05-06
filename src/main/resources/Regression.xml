@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" parallel="tests" thread-count="2">
+    <!--   <listeners>
+           <listener class-name="retry.RetryListener"/>
+       </listeners>
+   -->
+    <test name="Registration Account">
+        <parameter name="platformName" value="ANDROID"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="systemPort" value="7000"/>
+        <classes>
+<!--            <class name="tests.registration.TestRegistration"/>-->
+<!--            <class name="tests.authentication.TestLogin"/>-->
+<!--            <class name="tests.ui.TestUI"/>-->
+            <class name="tests.order.TestOrder"/>
+        </classes>
+    </test>
+
+    <test name="Webview">
+        <parameter name="platformName" value="android"/>
+        <parameter name="udid" value="192.168.0.103:36553"/>
+        <parameter name="systemPort" value="8000"/>
+        <classes>
+<!--            <class name="tests.order.TestOrder"/>-->
+        </classes>
+    </test>
+    <!--<test name="Authentication" >
+        <parameter name="platformName" value="ios" />
+        <parameter name="platformVersion" value="15.0" />
+        <parameter name="udid" value="iPhone 15" />
+        <parameter name="systemPort" value="wda_local_port" />
+        <classes>
+            <class name="tests.authentication.TestLoginWithBaseTest" />
+        </classes>
+    </test>-->
+
+</suite>

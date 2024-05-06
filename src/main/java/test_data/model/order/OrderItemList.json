@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Omega 3",
+    "price": 14,
+    "quality": 1
+  },
+  {
+    "name": "Clean code",
+    "price": 35,
+    "quality": 2
+  }
+]

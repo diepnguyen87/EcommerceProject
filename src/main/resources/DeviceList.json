@@ -1,0 +1,22 @@
+{
+  "androidDeviceList": [
+    {
+      "deviceName": "emulator-5554",
+      "platformVersion": "14"
+    },
+    {
+      "deviceName": "192.168.0.103:37175",
+      "platformVersion": "14"
+    }
+  ],
+  "iosDeviceList": [
+    {
+      "deviceName": "iPhone 15",
+      "platformVersion": "15.0"
+    },
+    {
+      "deviceName": "iPhone XS Max",
+      "platformVersion": "13.0"
+    }
+  ]
+}
